@@ -1,0 +1,2 @@
+AllowedDomains = 
+StartURL = ['http://webboard.yenta4.com//topic/541776']

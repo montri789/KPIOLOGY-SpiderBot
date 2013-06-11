@@ -1,0 +1,11 @@
+C:\>tasklist /FI "WINDOWTITLE eq Administrator:  Bot*" | find "cmd.exe" /c
+6
+
+
+
+myProgram.exe
+if errorlevel 1 goto somethingbad
+echo Success!
+exit
+:somethingbad
+echo Something Bad Happened.

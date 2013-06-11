@@ -1,0 +1,244 @@
+AllowedDomains = 
+StartURL = ['http://www.adslthailand.com/board//showthread.php?t=52876&page=25']
+Response = <200 http://www.adslthailand.com/board//showthread.php?t=52876&page=25>
+1 9CarThaiSpider.cfg www.9carthai.com
+2 Adslthailand.cfg adslthailand.com
+======Auto Config Mode======
+using auto config file: Adslthailand.cfg
+Current ID = 2
+PostAnchor = .//*[@id="postlist"]
+PostTitle = ./ol/li[1]/div[2]/div/h2/text()
+PostText = ./ol/li[1]/div[2]/div/div/div/blockquote//text()
+PostAuthor = ./ol/li[1]/div/div[2]/div/div/div/a/strong/text()
+PostAuthorDelim = 
+PostAuthorStart = 1
+PostAuthorEnd = 1
+PostAuthor2 = ./ol/li[1]/div/div[2]/div/div/div/a/strong/text()
+PostAuthor2Delim = 
+PostAuthor2Start = 1
+PostAuthor2End = 1
+PostDateTime = ./ol/li[1]/div/div/span/span//text()
+PostDateTime2 = ./ol/li[1]/div/div/span/span//text()
+CommentAnchor = .//*[@id="postlist"]/ol/li[position()>1]
+CommentText = ./div[2]/div/div/div/blockquote//text()
+CommentTitle = ./h3
+CommentAuthor = ./div/div[2]/div/div/div/a/strong/text()
+CommentAuthorDelim = 
+CommentAuthorStart = 1
+CommentAuthorEnd = 1
+CommentAuthor2 = ./div/div[2]/div/div/div/a/strong/text()
+CommentAuthor2Delim = 
+CommentAuthor2Start = 1
+CommentAuthor2End = 1
+CommentDateTime = ./div/div/span/span//text()
+CommentDateTime2 = ./div/div/span/span//text()
+FirstCommentAndPostIsTheSame = 0
+URL = ['http://www.adslthailand.com/board//showthread.php?t=52876&page=25']
+Config = C:\Users\Pongrapee\Documents\GitHub\Spider\Generic\Config\Adslthailand.cfg
+
+==============
+==== Post ====
+==============
+temptext =  
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  23-Feb-2013  09:50 PM
+finaltext = 23-Feb-2013  09:50 PM
+temptext =  23-Feb-2013  09:50 PM
+finaltext = 23-Feb-2013  09:50 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+raw datetime = 23-Feb-2013  09:50 PM
+datetime = 2013-02-23 21:50:00
+parse_date = 2013-03-05 20:09:31
+==================
+==== Comments ====
+==================
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  24-Feb-2013  02:21 AM
+finaltext = 24-Feb-2013  02:21 AM
+temptext =  24-Feb-2013  02:21 AM
+finaltext = 24-Feb-2013  02:21 AM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-24 02:21:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  24-Feb-2013  01:10 PM
+finaltext = 24-Feb-2013  01:10 PM
+temptext =  24-Feb-2013  01:10 PM
+finaltext = 24-Feb-2013  01:10 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-24 13:10:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  25-Feb-2013  03:45 AM
+finaltext = 25-Feb-2013  03:45 AM
+temptext =  25-Feb-2013  03:45 AM
+finaltext = 25-Feb-2013  03:45 AM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-25 03:45:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  25-Feb-2013  12:43 PM
+finaltext = 25-Feb-2013  12:43 PM
+temptext =  25-Feb-2013  12:43 PM
+finaltext = 25-Feb-2013  12:43 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-25 12:43:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  25-Feb-2013  09:52 PM
+finaltext = 25-Feb-2013  09:52 PM
+temptext =  25-Feb-2013  09:52 PM
+finaltext = 25-Feb-2013  09:52 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-25 21:52:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  26-Feb-2013  06:05 PM
+finaltext = 26-Feb-2013  06:05 PM
+temptext =  26-Feb-2013  06:05 PM
+finaltext = 26-Feb-2013  06:05 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-26 18:05:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  27-Feb-2013  03:27 AM
+finaltext = 27-Feb-2013  03:27 AM
+temptext =  27-Feb-2013  03:27 AM
+finaltext = 27-Feb-2013  03:27 AM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-02-27 03:27:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  01-Mar-2013  03:38 AM
+finaltext = 01-Mar-2013  03:38 AM
+temptext =  01-Mar-2013  03:38 AM
+finaltext = 01-Mar-2013  03:38 AM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-03-01 03:38:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  01-Mar-2013  12:26 PM
+finaltext = 01-Mar-2013  12:26 PM
+temptext =  01-Mar-2013  12:26 PM
+finaltext = 01-Mar-2013  12:26 PM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-03-01 12:26:00
+parse_date = 2013-03-05 20:09:31
+. temptext = 
+finaltext = 
+temptext =  sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496 
+finaltext = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  sqlcolo
+finaltext = sqlcolo
+temptext =  04-Mar-2013  02:29 AM
+finaltext = 04-Mar-2013  02:29 AM
+temptext =  04-Mar-2013  02:29 AM
+finaltext = 04-Mar-2013  02:29 AM
+
+title = 
+text = sql colo โคโล เช่าโคโล โหลดบิท bitโคโล เริ่มต้น190บาท ถูกๆ ฟรีเทส demo ติดต่อได้ 24ชั่วโมง 08-66666-496
+author = sqlcolo
+datetime = 2013-03-04 02:29:00
+parse_date = 2013-03-05 20:09:31
+.

@@ -1,0 +1,332 @@
+AllowedDomains = 
+StartURL = ['http://www.headlightmag.com/webboard2011//index.php?topic=28802.0']
+Response = <200 http://www.headlightmag.com/webboard2011//index.php?topic=28802.0>
+1 9CarThaiSpider.cfg www.9carthai.com
+2 Adslthailand.cfg adslthailand.com
+3 Autospinn.cfg webboard.autospinn.com
+4 Boardexteen.cfg directory.exteen.com
+5 Boardliverpool.cfg board.liverpool.in.th
+6 Clipmass.cfg talk.mthai.com
+7 Communityn3k.cfg community.n3k.in.th
+8 Dek-DSpider.cfg www.dek-d.com
+9 Directoryexteen.cfg directory.exteen.com
+10 DroidsansSpider.cfg www.droidsans.com.com
+11 EdtGuideSpider.cfg www.edtguide.com
+12 FHMSpider.cfg www.fhm.in.th
+13 FixgsSpider.cfg http://fix.gs/
+14 Flashfly.cfg flashfly.net
+15 Gimyong.cfg gimyong.com
+16 GoldhipsSpider.cfg  www.goldhips.com
+17 GoodgameSpider.cfg http://webboard.gg.in.th
+18 Headlightmag.cfg headlightmag.com
+======Auto Config Mode======
+using auto config file: Headlightmag.cfg
+Current ID = 18
+PostAnchor = .//form[@id="quickModForm"]/table[1]/tr[1]
+PostTitle = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[1]/a/text()
+PostText = ./td/table/tr/td/table/tr/td[2]/div//text()
+PostAuthor = ./td/table/tr/td/table/tr/td/div/div/div/b/a/text()
+PostAuthorDelim = 
+PostAuthorStart = 1
+PostAuthorEnd = 1
+PostAuthor2 = ./td/table/tr/td/table/tr/td/div/div/div/b/a/text()
+PostAuthor2Delim = 
+PostAuthor2Start = 1
+PostAuthor2End = 1
+PostDateTime = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[2]//text()
+PostDateTime2 = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[2]//text()
+CommentAnchor = .//form[@id="quickModForm"]/table[1]/tr[position()>1]
+CommentText = ./td/table/tr/td/table/tr/td[2]/div//text()
+CommentTitle = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[1]/a/text()
+CommentAuthor = ./td/table/tr/td/table/tr/td/div/div/div/b/a/text()
+CommentAuthorDelim = 
+CommentAuthorStart = 1
+CommentAuthorEnd = 1
+CommentAuthor2 = ./td/table/tr/td/table/tr/td/div/div/div/b/a/text()
+CommentAuthor2Delim = 
+CommentAuthor2Start = 1
+CommentAuthor2End = 1
+CommentDateTime = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[2]//text()
+CommentDateTime2 = ./td/table/tr/td/table/tr[1]/td[2]/table[1]/tr/td[2]/div[2]//text()
+FirstCommentAndPostIsTheSame = 0
+URL = ['http://www.headlightmag.com/webboard2011//index.php?topic=28802.0']
+Config = C:\Users\Pongrapee\Documents\GitHub\Spider\Generic\Config\Headlightmag.cfg
+
+==============
+==== Post ====
+==============
+temptext =  ช่วยเลือกรถให้ด้วยครับ
+finaltext = ช่วยเลือกรถให้ด้วยครับ
+temptext =  พอดีเพื่อนผมกำลังจะออกรถ ซึ่งเป็นคันเดียวของบ้าน บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ รบกวนด้วยนะครับ
+finaltext = พอดีเพื่อนผมกำลังจะออกรถ ซึ่งเป็นคันเดียวของบ้าน บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ รบกวนด้วยนะครับ
+temptext =  deaw008
+finaltext = deaw008
+temptext =  deaw008
+finaltext = deaw008
+temptext =  « เมื่อ: มีนาคม 02, 2013, 17:09:13 »
+finaltext = « เมื่อ: มีนาคม 02, 2013, 17:09:13 »
+temptext =  « เมื่อ: มีนาคม 02, 2013, 17:09:13 »
+finaltext = « เมื่อ: มีนาคม 02, 2013, 17:09:13 »
+
+title = ช่วยเลือกรถให้ด้วยครับ
+text = พอดีเพื่อนผมกำลังจะออกรถ ซึ่งเป็นคันเดียวของบ้าน บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ รบกวนด้วยนะครับ
+author = deaw008
+raw datetime = « เมื่อ: มีนาคม 02, 2013, 17:09:13 »
+datetime = 2013-03-02 17:09:13
+parse_date = 2013-03-05 20:14:59
+==================
+==== Comments ====
+==================
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ ผมนึกถึงแต่ ป้ายแดงInnova 2.0G A/T ราคา954,000 จะเอา Avanza ก็กลัวเล็กไป จะให้เอาพวกรถเก๋ง C-Seg เบาะหลังนั่ง3คนบ่อยๆพาลจะอึดอัด
+finaltext = บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ ผมนึกถึงแต่ ป้ายแดงInnova 2.0G A/T ราคา954,000 จะเอา Avanza ก็กลัวเล็กไป จะให้เอาพวกรถเก๋ง C-Seg เบาะหลังนั่ง3คนบ่อยๆพาลจะอึดอัด
+temptext =  valensena
+finaltext = valensena
+temptext =  valensena
+finaltext = valensena
+temptext =  « ตอบ #1 เมื่อ: มีนาคม 02, 2013, 17:13:25 »
+finaltext = « ตอบ #1 เมื่อ: มีนาคม 02, 2013, 17:13:25 »
+temptext =  « ตอบ #1 เมื่อ: มีนาคม 02, 2013, 17:13:25 »
+finaltext = « ตอบ #1 เมื่อ: มีนาคม 02, 2013, 17:13:25 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = บ้านมีด้วยกัน5คน ผู้ใหญ่ทั้งหมด น้ำหนักแต่ละคน50-60กก นั้งไปต่างจังหวัด กทม-เชียงใหม่เดือนละ1-2ครั้ง ที่เหลือในกทม วันละ50+- ต้องการติดแก็ส นั้งสบาย เพราะอายุมากแล้ว ช่วงล่างเกาะถนน ไม่โคลงเคลงเพราะ เมารถกัน บำรุงรักษาง่าย ไปต่างจังหวัด มีช่างซ่อมได้ ไม่จุกจิก เพราะมีรถคันเดียว ใช้งาน6-7ปี งบไม่เกิน1ล้าน มือ1หรือ2ก็ได้ ผมนึกถึงแต่ ป้ายแดงInnova 2.0G A/T ราคา954,000 จะเอา Avanza ก็กลัวเล็กไป จะให้เอาพวกรถเก๋ง C-Seg เบาะหลังนั่ง3คนบ่อยๆพาลจะอึดอัด
+author = valensena
+datetime = 2013-03-02 17:13:25
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  innova เลยครับ น่าจะตอบโจทย์ที่สุด
+finaltext = innova เลยครับ น่าจะตอบโจทย์ที่สุด
+temptext =  looklikeopal
+finaltext = looklikeopal
+temptext =  looklikeopal
+finaltext = looklikeopal
+temptext =  « ตอบ #2 เมื่อ: มีนาคม 02, 2013, 17:23:15 »
+finaltext = « ตอบ #2 เมื่อ: มีนาคม 02, 2013, 17:23:15 »
+temptext =  « ตอบ #2 เมื่อ: มีนาคม 02, 2013, 17:23:15 »
+finaltext = « ตอบ #2 เมื่อ: มีนาคม 02, 2013, 17:23:15 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = innova เลยครับ น่าจะตอบโจทย์ที่สุด
+author = looklikeopal
+datetime = 2013-03-02 17:23:15
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  honda freed อืดหน่อยนะครับ. . .
+finaltext = honda freed อืดหน่อยนะครับ. . .
+temptext =  dew22799
+finaltext = dew22799
+temptext =  dew22799
+finaltext = dew22799
+temptext =  « ตอบ #3 เมื่อ: มีนาคม 02, 2013, 17:23:58 »
+finaltext = « ตอบ #3 เมื่อ: มีนาคม 02, 2013, 17:23:58 »
+temptext =  « ตอบ #3 เมื่อ: มีนาคม 02, 2013, 17:23:58 »
+finaltext = « ตอบ #3 เมื่อ: มีนาคม 02, 2013, 17:23:58 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = honda freed อืดหน่อยนะครับ. . .
+author = dew22799
+datetime = 2013-03-02 17:23:58
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  ผมนึกถึง H1 อะ แต่ติดแก๊สไม่ได้ หรือจะสปาด้า แต่ราคาแพงไป+ติดแก๊สมาพับเบาะหลังไม่ได้แน่ๆ อินโนว่า แล้วกันครับติดแก๊สกันเยอะช่างหน้าจะชำนาน
+finaltext = ผมนึกถึง H1 อะ แต่ติดแก๊สไม่ได้ หรือจะสปาด้า แต่ราคาแพงไป+ติดแก๊สมาพับเบาะหลังไม่ได้แน่ๆ อินโนว่า แล้วกันครับติดแก๊สกันเยอะช่างหน้าจะชำนาน
+temptext =  บูตะ ฉึกฉึก
+finaltext = บูตะ ฉึกฉึก
+temptext =  บูตะ ฉึกฉึก
+finaltext = บูตะ ฉึกฉึก
+temptext =  « ตอบ #4 เมื่อ: มีนาคม 02, 2013, 17:25:17 »
+finaltext = « ตอบ #4 เมื่อ: มีนาคม 02, 2013, 17:25:17 »
+temptext =  « ตอบ #4 เมื่อ: มีนาคม 02, 2013, 17:25:17 »
+finaltext = « ตอบ #4 เมื่อ: มีนาคม 02, 2013, 17:25:17 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = ผมนึกถึง H1 อะ แต่ติดแก๊สไม่ได้ หรือจะสปาด้า แต่ราคาแพงไป+ติดแก๊สมาพับเบาะหลังไม่ได้แน่ๆ อินโนว่า แล้วกันครับติดแก๊สกันเยอะช่างหน้าจะชำนาน
+author = บูตะ ฉึกฉึก
+datetime = 2013-03-02 17:25:17
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  mitsubishi pajerosport 2.4 gls 922000 บาทครับถ้าไม่สนว่ามันเป็นเกียร์ธรรมดา
+finaltext = mitsubishi pajerosport 2.4 gls 922000 บาทครับถ้าไม่สนว่ามันเป็นเกียร์ธรรมดา
+temptext =  อันตัวข้าฯนี้มีนามว่าหมู
+finaltext = อันตัวข้าฯนี้มีนามว่าหมู
+temptext =  อันตัวข้าฯนี้มีนามว่าหมู
+finaltext = อันตัวข้าฯนี้มีนามว่าหมู
+temptext =  « ตอบ #5 เมื่อ: มีนาคม 02, 2013, 17:31:26 »
+finaltext = « ตอบ #5 เมื่อ: มีนาคม 02, 2013, 17:31:26 »
+temptext =  « ตอบ #5 เมื่อ: มีนาคม 02, 2013, 17:31:26 »
+finaltext = « ตอบ #5 เมื่อ: มีนาคม 02, 2013, 17:31:26 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = mitsubishi pajerosport 2.4 gls 922000 บาทครับถ้าไม่สนว่ามันเป็นเกียร์ธรรมดา
+author = อันตัวข้าฯนี้มีนามว่าหมู
+datetime = 2013-03-02 17:31:26
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  D Segment เครื่อง 2.0 ครับ นั่งสบาย ขับดี ช่วงล่างดี มั่นใจ ถ้าเป็นแอคคอด 2.0 ได้ส่วนลดเยอะมาก เพราะกำลังเปลี่ยนโฉม ได้รถเลย ไม่ต้องรอ ราคาถูกสุด แต่แข็ง เบาะนั่งข้างหลังแข็งพอสมควร ถ้าเป็นเทียน่า 2.0 ส่วนลดมีบ้างนิดหน่อย บางที่มีรถเลย นั่งสบายที่สุด ลองพิจารณาดูครับ
+finaltext = D Segment เครื่อง 2.0 ครับ นั่งสบาย ขับดี ช่วงล่างดี มั่นใจ ถ้าเป็นแอคคอด 2.0 ได้ส่วนลดเยอะมาก เพราะกำลังเปลี่ยนโฉม ได้รถเลย ไม่ต้องรอ ราคาถูกสุด แต่แข็ง เบาะนั่งข้างหลังแข็งพอสมควร ถ้าเป็นเทียน่า 2.0 ส่วนลดมีบ้างนิดหน่อย บางที่มีรถเลย นั่งสบายที่สุด ลองพิจารณาดูครับ
+temptext =  YenChar
+finaltext = YenChar
+temptext =  YenChar
+finaltext = YenChar
+temptext =  « ตอบ #6 เมื่อ: มีนาคม 02, 2013, 17:42:32 »
+finaltext = « ตอบ #6 เมื่อ: มีนาคม 02, 2013, 17:42:32 »
+temptext =  « ตอบ #6 เมื่อ: มีนาคม 02, 2013, 17:42:32 »
+finaltext = « ตอบ #6 เมื่อ: มีนาคม 02, 2013, 17:42:32 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = D Segment เครื่อง 2.0 ครับ นั่งสบาย ขับดี ช่วงล่างดี มั่นใจ ถ้าเป็นแอคคอด 2.0 ได้ส่วนลดเยอะมาก เพราะกำลังเปลี่ยนโฉม ได้รถเลย ไม่ต้องรอ ราคาถูกสุด แต่แข็ง เบาะนั่งข้างหลังแข็งพอสมควร ถ้าเป็นเทียน่า 2.0 ส่วนลดมีบ้างนิดหน่อย บางที่มีรถเลย นั่งสบายที่สุด ลองพิจารณาดูครับ
+author = YenChar
+datetime = 2013-03-02 17:42:32
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  camry 2.0 g ครับ ติดแก๊ส ด้วย  นั่งก็สบายอยู่แต่   แต่ถ้านั่งที่สุดก็ Teana เลยครับ
+finaltext = camry 2.0 g ครับ ติดแก๊ส ด้วย  นั่งก็สบายอยู่แต่   แต่ถ้านั่งที่สุดก็ Teana เลยครับ
+temptext =  NamPTK_Gifted
+finaltext = NamPTK_Gifted
+temptext =  NamPTK_Gifted
+finaltext = NamPTK_Gifted
+temptext =  « ตอบ #7 เมื่อ: มีนาคม 02, 2013, 18:37:40 »
+finaltext = « ตอบ #7 เมื่อ: มีนาคม 02, 2013, 18:37:40 »
+temptext =  « ตอบ #7 เมื่อ: มีนาคม 02, 2013, 18:37:40 »
+finaltext = « ตอบ #7 เมื่อ: มีนาคม 02, 2013, 18:37:40 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = camry 2.0 g ครับ ติดแก๊ส ด้วย  นั่งก็สบายอยู่แต่   แต่ถ้านั่งที่สุดก็ Teana เลยครับ
+author = NamPTK_Gifted
+datetime = 2013-03-02 18:37:40
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  Teana/Camry/Accord มือสองตัว 2.0 ติดแก๊สเลยครับ 5คนเพียงพอ นั่งสบายไม่โคลง กว้างขวาง ครับผม
+finaltext = Teana/Camry/Accord มือสองตัว 2.0 ติดแก๊สเลยครับ 5คนเพียงพอ นั่งสบายไม่โคลง กว้างขวาง ครับผม
+temptext =  LanCeLoT
+finaltext = LanCeLoT
+temptext =  LanCeLoT
+finaltext = LanCeLoT
+temptext =  « ตอบ #8 เมื่อ: มีนาคม 02, 2013, 18:40:03 »
+finaltext = « ตอบ #8 เมื่อ: มีนาคม 02, 2013, 18:40:03 »
+temptext =  « ตอบ #8 เมื่อ: มีนาคม 02, 2013, 18:40:03 »
+finaltext = « ตอบ #8 เมื่อ: มีนาคม 02, 2013, 18:40:03 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = Teana/Camry/Accord มือสองตัว 2.0 ติดแก๊สเลยครับ 5คนเพียงพอ นั่งสบายไม่โคลง กว้างขวาง ครับผม
+author = LanCeLoT
+datetime = 2013-03-02 18:40:03
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  มือ2 E240 ปี 2000+
+finaltext = มือ2 E240 ปี 2000+
+temptext =  myalexxp
+finaltext = myalexxp
+temptext =  myalexxp
+finaltext = myalexxp
+temptext =  « ตอบ #9 เมื่อ: มีนาคม 02, 2013, 19:38:05 »
+finaltext = « ตอบ #9 เมื่อ: มีนาคม 02, 2013, 19:38:05 »
+temptext =  « ตอบ #9 เมื่อ: มีนาคม 02, 2013, 19:38:05 »
+finaltext = « ตอบ #9 เมื่อ: มีนาคม 02, 2013, 19:38:05 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = มือ2 E240 ปี 2000+
+author = myalexxp
+datetime = 2013-03-02 19:38:05
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  pajero sport 2.4 น่าจะเหมาะ nissan sylphy ก็นั่งสบายอยู่นะ
+finaltext = pajero sport 2.4 น่าจะเหมาะ nissan sylphy ก็นั่งสบายอยู่นะ
+temptext =  lorenzo
+finaltext = lorenzo
+temptext =  lorenzo
+finaltext = lorenzo
+temptext =  « ตอบ #10 เมื่อ: มีนาคม 02, 2013, 20:05:40 »
+finaltext = « ตอบ #10 เมื่อ: มีนาคม 02, 2013, 20:05:40 »
+temptext =  « ตอบ #10 เมื่อ: มีนาคม 02, 2013, 20:05:40 »
+finaltext = « ตอบ #10 เมื่อ: มีนาคม 02, 2013, 20:05:40 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = pajero sport 2.4 น่าจะเหมาะ nissan sylphy ก็นั่งสบายอยู่นะ
+author = lorenzo
+datetime = 2013-03-02 20:05:40
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  Innova เลยครับ ตัว D4D ก็ได้ถ้าไม่ติดแก๊ส หรือจะเอาตัวปัจจุบันก็ได้ ไม่อืดนะ.....มีแรงอยู่แต่ต้องเล่น D3 2 L ช่วยหน่อยเวลาขึ้นลงเขา 5 คนสบายๆ ชิวๆ แน่นอนครับ แอร์เย็นทุกที่นั่ง ช่างข้างถนนก็ซ่อมได้ อะไหล่เยอะ
+finaltext = Innova เลยครับ ตัว D4D ก็ได้ถ้าไม่ติดแก๊ส หรือจะเอาตัวปัจจุบันก็ได้ ไม่อืดนะ.....มีแรงอยู่แต่ต้องเล่น D3 2 L ช่วยหน่อยเวลาขึ้นลงเขา 5 คนสบายๆ ชิวๆ แน่นอนครับ แอร์เย็นทุกที่นั่ง ช่างข้างถนนก็ซ่อมได้ อะไหล่เยอะ
+temptext =  Headman
+finaltext = Headman
+temptext =  Headman
+finaltext = Headman
+temptext =  « ตอบ #11 เมื่อ: มีนาคม 02, 2013, 20:10:05 »
+finaltext = « ตอบ #11 เมื่อ: มีนาคม 02, 2013, 20:10:05 »
+temptext =  « ตอบ #11 เมื่อ: มีนาคม 02, 2013, 20:10:05 »
+finaltext = « ตอบ #11 เมื่อ: มีนาคม 02, 2013, 20:10:05 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = Innova เลยครับ ตัว D4D ก็ได้ถ้าไม่ติดแก๊ส หรือจะเอาตัวปัจจุบันก็ได้ ไม่อืดนะ.....มีแรงอยู่แต่ต้องเล่น D3 2 L ช่วยหน่อยเวลาขึ้นลงเขา 5 คนสบายๆ ชิวๆ แน่นอนครับ แอร์เย็นทุกที่นั่ง ช่างข้างถนนก็ซ่อมได้ อะไหล่เยอะ
+author = Headman
+datetime = 2013-03-02 20:10:05
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  Toyota Wish ครับ 5-6คนสบายๆ ไม่ต้องนั่งติดกัน เบียดกันครับ ซ่อมง่ายหายห่วง ศูนย์เพียบ อะไหล่ถูก มีซันรูฟเปิดปิดเล่นตากอากาศ นั่ง 5 คน วิ่งทางไกลผมสงสารคนนั่งตรงกลางเบาะหลังครับถ้าเป็นรถ Sedan
+finaltext = Toyota Wish ครับ 5-6คนสบายๆ ไม่ต้องนั่งติดกัน เบียดกันครับ ซ่อมง่ายหายห่วง ศูนย์เพียบ อะไหล่ถูก มีซันรูฟเปิดปิดเล่นตากอากาศ นั่ง 5 คน วิ่งทางไกลผมสงสารคนนั่งตรงกลางเบาะหลังครับถ้าเป็นรถ Sedan
+temptext =  jAkCS
+finaltext = jAkCS
+temptext =  jAkCS
+finaltext = jAkCS
+temptext =  « ตอบ #12 เมื่อ: มีนาคม 03, 2013, 02:03:43 »
+finaltext = « ตอบ #12 เมื่อ: มีนาคม 03, 2013, 02:03:43 »
+temptext =  « ตอบ #12 เมื่อ: มีนาคม 03, 2013, 02:03:43 »
+finaltext = « ตอบ #12 เมื่อ: มีนาคม 03, 2013, 02:03:43 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = Toyota Wish ครับ 5-6คนสบายๆ ไม่ต้องนั่งติดกัน เบียดกันครับ ซ่อมง่ายหายห่วง ศูนย์เพียบ อะไหล่ถูก มีซันรูฟเปิดปิดเล่นตากอากาศ นั่ง 5 คน วิ่งทางไกลผมสงสารคนนั่งตรงกลางเบาะหลังครับถ้าเป็นรถ Sedan
+author = jAkCS
+datetime = 2013-03-03 02:03:43
+parse_date = 2013-03-05 20:14:59
+. temptext =  Re: ช่วยเลือกรถให้ด้วยครับ
+finaltext = Re: ช่วยเลือกรถให้ด้วยครับ
+temptext =  ผมว่าพวก innova หรือ ppv ตัดไปได้เลยครับ มันนั่งไม่สบาย มันโคลง มึนหัว(สำหรับผมนะ) ไปหาพวก D seg  ดีกว่าครับราคาตัวท็อปมือ2 ไม่ถึงล้านแล้ว เชียร์ teana j32 ครับ 2.0 หรือ 2.5 ก็ได้แล้วแต่เท้า accord กว้างสบายก็จริงแต่เบาะแข็ง ผู้ใหญ่น่าจะไม่ชอบครับ ส่วน camry ก็นั่งสบายแต่น้อยกว่าเทียน่าครับ
+finaltext = ผมว่าพวก innova หรือ ppv ตัดไปได้เลยครับ มันนั่งไม่สบาย มันโคลง มึนหัว(สำหรับผมนะ) ไปหาพวก D seg  ดีกว่าครับราคาตัวท็อปมือ2 ไม่ถึงล้านแล้ว เชียร์ teana j32 ครับ 2.0 หรือ 2.5 ก็ได้แล้วแต่เท้า accord กว้างสบายก็จริงแต่เบาะแข็ง ผู้ใหญ่น่าจะไม่ชอบครับ ส่วน camry ก็นั่งสบายแต่น้อยกว่าเทียน่าครับ
+temptext =  iVeyroN
+finaltext = iVeyroN
+temptext =  iVeyroN
+finaltext = iVeyroN
+temptext =  « ตอบ #13 เมื่อ: มีนาคม 03, 2013, 02:25:20 »
+finaltext = « ตอบ #13 เมื่อ: มีนาคม 03, 2013, 02:25:20 »
+temptext =  « ตอบ #13 เมื่อ: มีนาคม 03, 2013, 02:25:20 »
+finaltext = « ตอบ #13 เมื่อ: มีนาคม 03, 2013, 02:25:20 »
+
+title = Re: ช่วยเลือกรถให้ด้วยครับ
+text = ผมว่าพวก innova หรือ ppv ตัดไปได้เลยครับ มันนั่งไม่สบาย มันโคลง มึนหัว(สำหรับผมนะ) ไปหาพวก D seg  ดีกว่าครับราคาตัวท็อปมือ2 ไม่ถึงล้านแล้ว เชียร์ teana j32 ครับ 2.0 หรือ 2.5 ก็ได้แล้วแต่เท้า accord กว้างสบายก็จริงแต่เบาะแข็ง ผู้ใหญ่น่าจะไม่ชอบครับ ส่วน camry ก็นั่งสบายแต่น้อยกว่าเทียน่าครับ
+author = iVeyroN
+datetime = 2013-03-03 02:25:20
+parse_date = 2013-03-05 20:14:59
+. temptext = 
+finaltext = 
+temptext = 
+finaltext = 
+temptext = 
+finaltext = 
+temptext = 
+finaltext = 
+temptext = 
+finaltext = 
+temptext = 
+finaltext = 
+
+title = 
+text = 
+author = 
+datetime = 2013-03-05 13:15:00
+parse_date = 2013-03-05 20:14:59
+.
