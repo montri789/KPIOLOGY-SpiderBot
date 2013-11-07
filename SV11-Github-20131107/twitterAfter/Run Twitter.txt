@@ -1,0 +1,14 @@
+linux split file
+wc -l file_name				#line count
+split -l 50000 file_name			#split
+
+
+Copy Data to path
+C:\twitterdata
+
+Run file duble click
+twitter.bat
+
+
+Run file duble click (IP 27.254.81.11)
+c:\script\bot_twitter_after.bat
