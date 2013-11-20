@@ -1,0 +1,27 @@
+#!/usr/bin/expect -f
+
+#[tools@shopaholic sh]$ expect movedata.exp 11 19 27
+#set client_id [lindex $argv 0]
+    
+set clients "11 19 27 31 33 34 35 37 39 40 41 42 44 45 46 47 48 50 51"
+
+foreach client $clients {
+  
+  #spawn scp -r /home/tools/projects/kpiology_demo/data kpiology@kpiology.com:domains/kpiology.com/public_html/datatest/
+  spawn scp -r /home/tools/projects/kpiology_demo/data/c$client/data.csv kpiology@kpiology.com:domains/kpiology.com/public_html/data/c$client/
+  
+  set pass "&thS8(KAwEU&"
+  
+  #expect {password: {send "$pass\r"; exp_continue}}
+  expect {
+    -re ".*es.*o.*" {
+      exp_send "yes\r"
+      exp_continue
+    }
+    -re ".*sword.*" {
+      exp_send "$pass\r";
+      exp_continue
+    }
+  }
+  
+}

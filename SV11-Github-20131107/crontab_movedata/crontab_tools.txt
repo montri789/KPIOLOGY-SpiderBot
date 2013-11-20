@@ -1,0 +1,9 @@
+
+[tools@shopaholic ~]$ crontab -l
+0 4 * * * cd /home/tools/projects/seeding; php index.php fetch feedback
+#1 */4 * * * cd /home/tools/projects/kpiology_demo; php index.php dc index 11
+
+1 0,4,8,12,16,20 * * * cd /home/tools/projects/kpiology_demo/sh; sh ./gendata.sh > gendata.log 2>&1
+5 0,4,8,12,16,20 * * * cd /home/tools/projects/kpiology_demo/sh; sh ./27.sh > 27.log 2>&1
+10 0,4,8,12,16,20 * * * cd /home/tools/projects/kpiology_demo/sh; sh ./44.sh > 44.log 2>&1
+20 0,4,8,12,16,20 * * * cd /home/tools/projects/kpiology_demo/sh; expect movedata.exp
