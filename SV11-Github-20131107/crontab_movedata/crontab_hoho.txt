@@ -1,0 +1,15 @@
+
+[hoho@shopaholic ~]$ crontab -l
+# */5 * * * * /usr/bin/php /home/allnews/allnews.in.th/raw-crawler/bot-nofeed.php >/dev/null 2>&1
+# */5 * * * * sleep 1; /usr/bin/php /home/allnews/allnews.in.th/raw-crawler/bot-extractlinks.php >/dev/null 2>&1
+# * * * * * /usr/bin/php /home/allnews/allnews.in.th/raw-crawler/bot-getnews.php >/dev/null 2>&1
+
+10 0 * * * find ./backup_warroom -name "warroom*.sql.gz" -mtime +10 -exec rm {} \;
+20 0 * * * find ./backup_spider -name "spider*.sql.gz" -mtime +10 -exec rm {} \;
+30 0 * * * find ./backup_kpiology -name "kpiology*.sql.gz" -mtime +10 -exec rm {} \;
+
+0 3 * * * mysqldump -h 27.254.81.15 -u root -pCg3qkJsV spider | gzip -3 -c > ./backup_spider/spider-$(date +\%Y-\%m-\%d-\%H-\%M).sql.gz
+0 5 * * * mysqldump -h 27.254.81.11 -u root -pthtoolsth! kpiology | gzip -3 -c > ./backup_kpiology/kpiology-$(date +\%Y-\%m-\%d-\%H-\%M).sql.gz
+0 5 * * * mysqldump -h 27.254.81.6 -u root -pusrobotic warroom | gzip -3 -c > ./backup_warroom/warroom-$(date +\%Y-\%m-\%d-\%H-\%M).sql.gz
+
+#30 10 24 * * mysqldump -h 27.254.81.14 -u root -pCg3qkJsV spider post_18092013 | gzip -3 -c > ./backup_kpiology/sv14-post_18092013.sql.gz
