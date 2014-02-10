@@ -12,4 +12,8 @@
 0 5 * * * mysqldump -h 27.254.81.11 -u root -pthtoolsth! kpiology | gzip -3 -c > ./backup_kpiology/kpiology-$(date +\%Y-\%m-\%d-\%H-\%M).sql.gz
 0 5 * * * mysqldump -h 27.254.81.6 -u root -pusrobotic warroom | gzip -3 -c > ./backup_warroom/warroom-$(date +\%Y-\%m-\%d-\%H-\%M).sql.gz
 
+0 18 * * * cd /home/hoho/backup_warroom; expect move_backup_warroom.exp
+5 18 * * * cd /home/hoho/backup_kpiology; expect move_backup_kpiology.exp
+10 18 * * * cd /home/hoho/backup_spider; expect move_backup_spider.exp
+
 #30 10 24 * * mysqldump -h 27.254.81.14 -u root -pCg3qkJsV spider post_18092013 | gzip -3 -c > ./backup_kpiology/sv14-post_18092013.sql.gz
